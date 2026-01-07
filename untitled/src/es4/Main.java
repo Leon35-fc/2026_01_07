@@ -9,6 +9,7 @@ public class Main {
 
     }
     public static int contdown(){
+        System.out.println("Scrivi un numero.");
         String ctnInp = scn.nextLine();
         int ctn = Integer.parseInt(ctnInp);
         for( int i = 0; ctn >0; i++){
